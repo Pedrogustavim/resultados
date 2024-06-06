@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: "inter", sans-serif;
+    font-size: sans-serif;
 }
 
 :root{
@@ -11,7 +11,6 @@
     --media-bg: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00)100%);
     --white: #FFF;
     --ligth-blue: #CAC9FF; 
-
 
 }
 
@@ -25,6 +24,7 @@ padding-block: 2.4rem;
 background: var(--resultado-bg);
 text-align: center;
 color: var(--white);
+border-radius: 0 0 3.2rem 3.2rem;
 }
 
 .resultado h1{
@@ -55,3 +55,15 @@ color: var(--white);
     color: var(--ligth-blue);
 }
 
+.resultado h2{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.resultado p {
+    max-width: 26rem;
+    margin-inline: auto;
+    color: var(--ligth-blue)
+}
+
+    
